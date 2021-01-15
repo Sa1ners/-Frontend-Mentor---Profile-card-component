@@ -54,7 +54,7 @@ hr{
 
 .top_image{
   position: relative;
-  bottom:400px;
+  bottom:450px;
   right:350px;
 }
 
@@ -70,7 +70,7 @@ hr{
   border-style:hidden;
   border-radius: 20px;
   position: relative;
-  bottom:750px;
+  bottom:800px;
   right: 450px;
   background-color: white;
   height: 350px;
