@@ -5,6 +5,7 @@ body{
 h1{
   font-size: 18px;
   font-weight: 700;
+  padding-top: 20px;
 }
 
 h2{
@@ -15,9 +16,16 @@ h2{
 }
 
 h3{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: .5;
+}
+
+h4{
   font-size: 12px;
   color: hsl(227, 10%, 46%);
   font-weight: 400;
+  line-height: .5;
 }
 
 hr{
@@ -27,35 +35,53 @@ hr{
   border-right: 0;
   border-style: dotted;
   border-color: hsl(227, 10%, 46%);
-  width:98%
 
 }
 
 .container{
   max-width: 1440px;
-  height: auto;
+  max-height: 600px;
+  min-height: 100vh;
   background-color: hsl(185, 75%, 39%);
   position: relative;
-  margin: auto;
+  padding: 1rem;
   overflow:hidden;
+  display: flex;
+  flex-wrap: wrap;
+ 
+
 }
+
+.top_image{
+  position: relative;
+  bottom:400px;
+  right:350px;
+}
+
+.bottom_image{
+  position: relative;
+  bottom: 700px;
+  left:700px;
+}
+
 
 .profile_card{
   border: 1px;
   border-style:hidden;
   border-radius: 20px;
-  position: absolute;
-  top:730px;
-  left:540px;
+  position: relative;
+  bottom:750px;
+  right: 450px;
   background-color: white;
-  height: 400px;
-  width:25%;
+  height: 350px;
   overflow:hidden;
   text-align: center;
+  width: 300px;
+  max-width: 400px;
 }
 
 .profile_top{
-  height:150px;
+  height:120px;
   background-image: url(bg-pattern-card.svg);
   background-size:cover;
 
@@ -63,7 +89,7 @@ hr{
 
 .profile_middle{
   background-color:white;
-  height: 150px;
+  height: 110px;
 }
 
 .card_top_pattern{
@@ -71,24 +97,13 @@ hr{
   height: 100%;
 }
 
-.top_image{
-  position: relative;
-  left:-300px;
-}
-
-.bottom_image{
-margin-left: 550px;
-margin-top: 50px;
-}
-
 .headshot{
   border: 3px;
   border-style:solid;
   border-radius: 50%;
   border-color: white;
-  position:absolute;
-  top:95px;
-  right:129px;
+  position: relative;
+  top:75px;
 
 }
 
