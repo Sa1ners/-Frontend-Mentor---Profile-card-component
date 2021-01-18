@@ -1,5 +1,7 @@
 body{
+  background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
+  
   }
 
 h1{
@@ -39,16 +41,20 @@ hr{
 }
 
 .container{
+  background-color: hsl(185, 75%, 39%);
   max-width: 1440px;
   max-height: 600px;
   min-height: 100vh;
-  background-color: hsl(185, 75%, 39%);
-  position: relative;
-  padding: 1rem;
+  /* padding: 1rem; */
   overflow:hidden;
   display: flex;
-  flex-wrap: wrap;
- 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('bg-pattern-top.svg'),url('bg-pattern-bottom.svg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position:-80% 180%, 150% -120%;
 
 }
 
@@ -69,9 +75,6 @@ hr{
   border: 1px;
   border-style:hidden;
   border-radius: 20px;
-  position: relative;
-  bottom:800px;
-  right: 450px;
   background-color: white;
   height: 350px;
   overflow:hidden;
